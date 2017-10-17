@@ -7,6 +7,7 @@ by Manish Sharma from www.RebellionRider.com
 /*
     Social Media Links
     Follow Manish on Social Media for regular updates
+    
     www.Facebook.com/TheRebellionRider
     
     www.Twitter.com/RebellionRider
