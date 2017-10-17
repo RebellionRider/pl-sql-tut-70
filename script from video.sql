@@ -1,8 +1,15 @@
+/*
+    Script used in PL/SQL video tutorial 70: https://youtu.be/_u7xkaRzai8
+*/
+
 SET SERVEROUTPUT ON;
 DECLARE
+    /*Declare Weak Ref Cursor*/
     TYPE wk_RefCur IS REF CURSOR;
+    /*Declare Cursor Variable of ref cursor type*/
     cur_var wk_RefCur;
     
+     /*Declare two "Anchored Datatype Variable" for holding data from the cursor*/
     f_name  employees.first_name%TYPE;
     emp_sal employees.salary%TYPE;
 BEGIN
